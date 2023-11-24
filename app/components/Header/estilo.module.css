@@ -1,0 +1,76 @@
+.header {
+    height: 9%;
+
+}
+
+.logo {
+    height: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnLogin {
+
+    width: 104px;
+    height: 37px;
+    border-radius: 20px;
+    background: #1CDAFF;
+    position: absolute;
+    right: 8.5%;
+    top: 3%;
+    text-align: center;
+    
+    /* 18.2px */
+}
+
+.conteudoBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+.conteudoBtn img{
+    margin-right: 5%;
+}
+
+.btnLogin a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+  
+}
+
+.nav {
+    padding: 0 10%;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    /* 18.2px */
+    background: linear-gradient(90deg, #141D37 0.97%, #3B4F89 99.06%);
+    /* background: red; */
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #FFF;
+}

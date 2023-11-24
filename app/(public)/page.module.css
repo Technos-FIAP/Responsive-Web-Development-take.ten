@@ -1,0 +1,334 @@
+.main {}
+
+.conteudoHome {
+    padding: 0 25% 0 10%;
+    color: #FFF;
+    height: 658px;
+    background: linear-gradient(90deg, rgba(83, 143, 221, 0.76) 32.31%, rgba(28, 218, 255, 0.00) 99.81%), url("../../public/Banner_home.jpeg"), lightgray 50% / cover no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.conteudoHome h2 {
+    color: #FFF;
+    padding-top: 20%;
+    font-family: 'Baloo 2';
+    font-size: 52px;
+    font-style: normal;
+    /* font-weight: bolder; */
+    line-height: 130%;
+    /* 67.6px */
+}
+
+.conteudoHome p {
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    padding-right: 30%;
+    margin-bottom: 10%;
+    /* 26px */
+}
+
+.conteudoHome button {
+    border-radius: 200px;
+    background: #141D37;
+    height: 51px;
+    width: 267px;
+    color: #FFF;
+}
+
+.academiaIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: -80px auto auto auto;
+
+    border-radius: 4px;
+    height: 150px;
+    width: 80%;
+    background: linear-gradient(90deg, #141D37 0.03%, #3C508A 99.45%);
+    filter: drop-shadow(0px 4px 26px rgba(0, 0, 0, 0.83));
+    padding: 0 5%;
+
+}
+
+.academiaIcons nav {
+    /* display: flex; */
+    width: 100%;
+}
+
+.academiaIcons nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.academiaIcons nav ul li {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.academiaIcons nav ul li img {
+    background-color: #131B34;
+    width: 27.5px;
+    border-radius: 100%;
+    border: 20px solid;
+    margin-bottom: 5px;
+}
+
+.academiaIcons nav ul li p {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    /* 20.8px */
+
+}
+
+.SessaoEscritorio {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 10%;
+    margin-top: 10%;
+}
+
+.SessaoEscritorio article {
+    width: 50%;
+}
+
+.ImgEscritorio {
+    width: 526px;
+    height: 321px;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(83, 143, 221, 0.51) 0%, rgba(83, 143, 221, 0.51) 100%), url("../../public/escritorio.jpeg"), 50% / cover no-repeat;
+    box-shadow: 0px 4px 18px 1px rgba(0, 0, 0, 0.49);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.conteudoEscritorio {
+    /* padding-right: 10%; */
+}
+
+.conteudoEscritorio h2 {
+    color: #141D37;
+    font-family: 'Baloo 2';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 41.6px */
+    margin-bottom: 5%;
+}
+
+.conteudoEscritorio p {
+    color: #3A3A3A;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 20.8px */
+}
+
+.conteudoEscritorio button {
+
+    background: #FFF;
+    border-radius: 200px;
+    border: 1px solid #538FDD;
+    width: 130px;
+    height: 51px;
+    color: #538FDD;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    margin-top: 8%;
+    /* 23.4px */
+}
+
+.SessaoDores {
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row-reverse; */
+    padding: 0 10%;
+    margin-top: 10%;
+}
+
+.SessaoDores article {
+    width: 49%;
+}
+
+.ImgDores {
+    width: 526px;
+    height: 321px;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(83, 143, 221, 0.51) 0%, rgba(83, 143, 221, 0.51) 100%), url("../../public/lesao.jpeg"), 50% / cover no-repeat;
+    box-shadow: 0px 4px 18px 1px rgba(0, 0, 0, 0.49);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.conteudoDores {
+    /* padding-right: 10%; */
+}
+
+.conteudoDores h2 {
+    color: #141D37;
+    font-family: 'Baloo 2';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 41.6px */
+    margin-bottom: 5%;
+}
+
+.conteudoDores p {
+    color: #3A3A3A;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 20.8px */
+}
+
+.conteudoDores button {
+
+    background: #FFF;
+    border-radius: 200px;
+    border: 1px solid #538FDD;
+    width: 130px;
+    height: 51px;
+    color: #538FDD;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    margin-top: 8%;
+    /* 23.4px */
+}
+
+.beneficios {
+    margin-top: 10%;
+}
+
+.beneficios article {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.beneficios article h2 {
+    margin-left: 6px;
+    /* margin-bottom: 10%; */
+    color: #538FDD;
+    font-family: 'Baloo 2';
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    /* 29.9px */
+}
+
+.beneficios ul {
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.beneficios ul li {
+    width: 28%;
+    height: 228px;
+    border-radius: 10px;
+    border: 1px solid #538FDD;
+    background: #FFF;
+    box-shadow: 0px 4px 22px 0px rgba(0, 0, 0, 0.25);
+    /* padding: 2%; */
+    padding: 15px;
+}
+
+.beneficios ul li p {
+    margin-top: 10%;
+    color: #3A3A3A;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 20.8px */
+}
+
+.estatistica {
+    width: 100%;
+    height: 132px;
+    background: linear-gradient(90deg, #538FDD 0.03%, #84B9FF 99.45%);
+    color: #FFF;
+    /* display: flex;
+    align-items: center; */
+    margin-top: 10%;
+
+}
+
+.estatistica article {
+    padding: 0 10%;
+
+    /* align-items: center;   */
+
+}
+
+.estatistica article ul {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 132px;
+
+}
+
+
+.estatistica article h3 {
+    text-align: center;
+    font-family: 'Baloo 2';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    /* 62.4px */
+}
+
+.estatistica article p {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 20.8px */
+}

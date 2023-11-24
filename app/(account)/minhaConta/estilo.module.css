@@ -1,0 +1,125 @@
+/* .MinhaConquista{
+    width: 100%;
+} */
+.geral {
+    padding: 0 10%;
+}
+
+.geral h2 {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color: #141D37;
+    font-family: 'Roboto';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    /* 45.5px */
+    text-align: center;
+}
+
+.minhasConquistas {
+    height: inherit;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #44C9F5 0.03%, #8CE0FC 99.97%);
+    padding: 2% 5% 5% 5%;
+    /* width: 100%; */
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.minhasConquistas div {
+    /* width: 100%; */
+    /* flex-wrap: wrap; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.minhasConquistas h3 {
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 130%;
+    text-align: start;
+    margin-bottom: 4%;
+    /* 20.8px */
+}
+
+
+.conquista {
+    width: 233px;
+    height: 108px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 2%;
+
+
+}
+
+.conteudoConquista {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 0;
+    margin-left: 5px;
+}
+
+.conteudoConquista h3 {
+    color: #141D37;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+
+    /* 18.2px */
+}
+
+
+.imgConquista img {
+    width: 89px;
+    height: 89px;
+
+}
+
+.dadosPessoal {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.dadosPessoal article {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 5%;
+
+    /* width: 300px; */
+    height: 200px;
+    padding: 5%;
+    margin-bottom: 10%;
+}
+
+.dadosPessoal article h3 {
+    color: #141D37;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    /* 20.8px */
+}
+
+.dadosPessoal article p {
+    color: #141D37;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 31.2px */
+    margin-bottom: 10%;
+    /* 20.8px */
+}
+

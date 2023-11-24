@@ -1,0 +1,78 @@
+.cadastro {
+    display: flex;
+    max-height: 100%;
+    max-width: 100vw;
+}
+
+.imgCadastro {
+    background: linear-gradient(0deg, rgba(84, 144, 222, 0.54) 0%, rgba(84, 144, 222, 0.54) 100%), url("../../../public/banner_cadastro.jpeg"), lightgray -82.282px -0.498px / 219.827% 100% no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    width: 50vw;
+    height: 100vh;
+}
+
+.formCadastro {
+    width: 50vw;
+    height: 100%;
+    padding: 5%;
+
+}
+
+.formCadastro img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.formCadastro h2 {
+    color: #24325A;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 4%;
+}
+
+.formCadastro label {
+    display: block;
+    color: var(--Body-text, #2D3748);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+    letter-spacing: -0.32px;
+}
+
+.formCadastro input,
+.opcoes {
+    border-radius: 3.528px;
+    border: 0.706px solid var(--Strokes, #D1D1D1);
+    width: 586px;
+    height: 34px;
+    flex-shrink: 0;
+    margin-bottom: 3%;
+}
+
+.formCadastro button {
+
+    margin-top: 5%;
+    width: 586px;
+    height: 49px;
+    border-radius: 3.528px;
+    background: #538FDD;
+    border: none;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.32px;
+}
